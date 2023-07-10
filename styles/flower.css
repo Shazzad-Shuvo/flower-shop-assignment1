@@ -90,9 +90,9 @@ body {
 
 /* instagram styles */
 
-.instagram {
+.common-section {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 auto 130px;
 }
 
 .insta-content {
@@ -117,4 +117,24 @@ body {
 .insta-photos {
     display: flex;
     gap: 25px;
+}
+
+/* latest deal style */
+
+#deal {
+    background-image: url("../images/Rectangle\ 9.png");
+}
+
+.latest-deal {
+    text-align: center;
+    padding: 125px 0;
+}
+
+.email {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 35px;
+    border: 0;
+    width: 600px;
+    margin-right: 15px;
 }
