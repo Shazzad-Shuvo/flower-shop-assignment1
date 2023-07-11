@@ -84,6 +84,7 @@ body {
     display: flex;
     align-items: end;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .feature-img {
@@ -129,11 +130,30 @@ body {
     text-decoration-line: underline;
 }
 
+/* order and specialty now styles  */
+
+.specialty {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 100px;
+}
+
+.specialty-category > p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+
 /* hot deal styles */
 
 .hot-deal {
     border-radius: 8px;
-    /* background: rgba(229, 84, 115, 0.05); */
     background-image: linear-gradient(#7EE8FA, #EEC0C6);
     display: flex;
     align-items: center;
@@ -172,6 +192,53 @@ body {
 
 .deal-btn {
     text-align: center;
+}
+
+/* Order now styles */
+
+.order-and-specialty {
+    background-image: linear-gradient(#ede574, #e1f5c4);
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-now-content {
+    padding-right: 150px;
+}
+
+.order-now-content>h2 {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.order-now-form input[type="text"],
+.order-now-form input[type="email"],
+textarea {
+    margin-bottom: 25px;
+    padding: 12px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+.wcu-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.why-choose-us {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
 }
 
 /* instagram styles */
